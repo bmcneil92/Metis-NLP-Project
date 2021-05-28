@@ -43,7 +43,7 @@ Altair for visualizations
 Pandas    
 Numpy  
 NMF  
-PorterStemmer
-MongoDB
-Selenium
+PorterStemmer  
+MongoDB  
+Selenium  
 Streamlit
