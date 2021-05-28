@@ -28,8 +28,7 @@ After stemming and removing certain words, we ran our data through a countvector
 
 ## Model 
 
-Our final model was a NMF model tuned to seperate our data into 5 topics. Our final topics we reviews relating to 
-1) Makeup Removing, 2) Dry Skin, 3) General Cleansing, 4) Oily Skin, 5) Acne.
+Our final model was a NMF model tuned to seperate our data into 5 topics. Our final topics we reviews relating to 1) Makeup Removing, 2) Dry Skin, 3) General Cleansing, 4) Oily Skin, 5) Acne.
 
 The model was pickled and placed into a Streamlit app that was able to accept user input and transform it via our NMF model. 
 Using a noramlized version of our model's trained features, we were able to calculate the cosine similarities of our trained features and user inputted comments. 
